@@ -5,6 +5,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 
+
 public class App {
 public static void main(String...args){
 	Configuration config=new Configuration().configure();
@@ -13,7 +14,6 @@ public static void main(String...args){
 	SessionFactory factory =config.buildSessionFactory(builder.build());
 	Session session = factory.openSession();
 	Employee emp = new Employee();
-	emp.setId(1);
 	emp.setEmpName("Jas");
 	emp.setBranch("TSI");
 	session.beginTransaction();

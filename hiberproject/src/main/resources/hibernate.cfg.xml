@@ -13,5 +13,8 @@
    <!-- Sql dialect- takes care of database -->
         <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
         <property name="show_sql">false</property>
+        <mapping resource = "com/lti/hibernate/emp.hbm.xml"/>
+       
     </session-factory>
 </hibernate-configuration>
+

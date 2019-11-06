@@ -24,6 +24,7 @@
 </dependency>
 
 
+
 	<!-- Hibernate framework -->
 	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
 <dependency>
