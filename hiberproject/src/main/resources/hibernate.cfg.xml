@@ -7,7 +7,7 @@
         <property name="hibernate.connection.url">jdbc:oracle:thin:@localhost:1521:xe</property>
         <property name="hibernate.connection.username">system</property>
         <property name="hibernate.connection.password">password</property>
-        <property name="hbm2ddl.auto">create/update</property>
+        <property name="hbm2ddl.auto">create</property>
    <!-- jdbc conncection pool(use built-in) -->
    		<property name= "connection.pool_size">1</property>
    <!-- Sql dialect- takes care of database -->
